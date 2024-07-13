@@ -6,12 +6,19 @@ Header Hunter is a Rust-based tool designed for auditing HTTP headers of web app
 
 header_hunter/
 │
+
 ├── Cargo.toml          # Rust package manifest
+
 ├── src/
+
 │   ├── main.rs         # Main entry point of the program
+
 │   ├── lib.rs          # Library module defining utility functions
+
 │   └── header_analyzer.rs  # Module for analyzing HTTP headers
+
 └── urls.txt             # Text file containing URLs to be audited
+
 
 ## Dependencies
 

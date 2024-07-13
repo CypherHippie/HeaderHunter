@@ -1,7 +1,7 @@
 use header_checker::{read_urls_from_file, search_headers};
 
 fn main() {
-    let url_file = "wayback_urls.txt";
+    let url_file = "wayback_urls.txt"; // change the name of the file for the one that u want to test
 
     let urls = match read_urls_from_file(url_file) {
         Ok(urls) => urls,
